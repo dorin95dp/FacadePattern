@@ -1,9 +1,15 @@
 package com.company;
 
+import com.company.models.ShapeMaker;
+
 public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println("Hello world!");
+        ShapeMaker shapeMaker = new ShapeMaker();
+
+        shapeMaker.drawCircle();
+        shapeMaker.drawRectangle();
+        shapeMaker.drawSquare();
     }
 }
